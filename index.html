@@ -1,167 +1,101 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Estudos</title>
+    <title>Organizador de Estudo</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     <div class="conteiner">
         <header>
-            <div class="header-areas">
-                <div class="logo">
-                    MyStudyList
-                
-                </div>
-
-                <div class="nova-pasta">
-                    <img src="icons/mais.png" alt="" class="mais-icon"> Nova Pasta
-
-                </div>
-
+            <section class="titulo">MyStudyOrg</section>
+            <br>
+            <div class="header-opt">
+                <section><img src="icons/user-profile.png" alt=""> Olá, Ryan</section>
+                <br>
+                <section> <img src="icons/add.png" alt="">  Pasta</section>
             </div>
-            
-            
         </header>
         <main>
             <div class="content">
-                <div></div>
-                <div class="to-do-area">
-                    <div class="to-do-model">
-                        <div class="area-pasta">
+                <div class="nova-pasta-content">                   
+                   <section> <img src="icons/add.png" alt=""> Pasta</section>
+                </div>
+                <div class="area-cards-estudos">
+                    <div class="card-estudo">
+                        <div class="card-estrutura">
                             <div class="header-pasta">
-                                <span class="pasta-titulo">Analista de Suporte</span>
-                                <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
+                                <div class="titulo-pasta">Analista de Suporte <img src="icons/add.png" alt=""></div>                    
                             </div>
-
-                            <ul class="lista-topicos">
-                                
+                            
+                            <ul class="lista-topico">
                                 <li class="item-topico">
-                                    <div class="topico-header">
-                                        <span class="topico-titulo">Infraestrutura</span>
-                                        <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                        <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
+                                    <div class="header-topico">
+                                        <span class="titulo-topico">Infrastrutura</span>
+                                        <span><img src="icons/add.png" alt=""></span>
                                     </div>
-                                    
-                                    <ul class="lista-subtopicos">
+                                    <ul class="lista-subtopico">
                                         <li class="item-subtopico">
-                                            <span class="subtopico-titulo">P2P</span>
+                                            <span class="titulo-subtopico">P2P</span>
                                         </li>
                                     </ul>
                                 </li>
-                                 <li class="item-topico">
-                                    <div class="topico-header">
-                                        <span class="topico-titulo">Atendimento</span>
-                                        <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                        <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
-                                        
+                                <li class="item-topico">
+                                    <div class="header-topico">
+                                        <span class="titulo-topico">Atendimento</span>
+                                        <span><img src="icons/add.png" alt=""></span>
                                     </div>
-                                    
-                                    <ul class="lista-subtopicos">
+                                    <ul class="lista-subtopico">
                                         <li class="item-subtopico">
-                                            <span class="subtopico-titulo">Como solucionar um chamado</span>
+                                            <span class="titulo-subtopico">Como resolver um chamado</span>
                                         </li>
                                     </ul>
                                 </li>
-
-
-                            </ul>
+                            </ul>                            
                         </div>
                     </div>
 
-                    <div class="to-do-model">
-                        <div class="area-pasta">
+
+                    <div class="card-estudo">
+                        <div class="card-estrutura">
                             <div class="header-pasta">
-                                <span class="pasta-titulo">Front-End</span>
-                                <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
+                                <div class="titulo-pasta">FRONT-END <img src="icons/add.png" alt=""></div>                  
                             </div>
-
-                            <ul class="lista-topicos">
-                                
+                            
+                            <ul class="lista-topico">
                                 <li class="item-topico">
-                                    <div class="topico-header">
-                                        <span class="topico-titulo">HTML Semântico</span>
-                                        <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                        <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
+                                    <div class="header-topico">
+                                        <span class="titulo-topico">HTML Semântico</span>
+                                        <span><img src="icons/add.png" alt=""></span>
                                     </div>
-                                    
-                                    <ul class="lista-subtopicos">
+                                    <ul class="lista-subtopico">
                                         <li class="item-subtopico">
-                                            <span class="subtopico-titulo">Estrutura e funcionalidade</span>
+                                            <span class="titulo-subtopico">Estrutura e funcionalidades</span>
                                         </li>
                                     </ul>
                                 </li>
-
                                 <li class="item-topico">
-                                    <div class="topico-header">
-                                        <span class="topico-titulo">React</span>
-                                        <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                        <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
+                                    <div class="header-topico">
+                                        <span class="titulo-topico">React</span>
+                                        <span><img src="icons/add.png" alt=""></span>
+                            
                                     </div>
-
-                                    <ul class="lista-subtopicos">
+                                    <ul class="lista-subtopico">
                                         <li class="item-subtopico">
-                                            <span class="subtopico-titulo">Documentação</span>
+                                            <span class="titulo-subtopico">Documentação</span>
                                         </li>
                                     </ul>
                                 </li>
-
                             </ul>
+                            
                         </div>
                     </div>
-
-                    <div class="to-do-model">
-                        <div class="area-pasta">
-                            <div class="header-pasta">
-                                <span class="pasta-titulo">Back-End</span>
-                                <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
-                            </div>
-
-                            <ul class="lista-topicos">
-                                
-                                <li class="item-topico">
-                                    <div class="topico-header">
-                                        <span class="topico-titulo">API</span>
-                                        <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                        <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
-                                    </div>
-                                    
-                                    <ul class="lista-subtopicos">
-                                        <li class="item-subtopico">
-                                            <span class="subtopico-titulo">REST API</span>
-                                            
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="item-topico">
-                                    <div class="topico-header">
-                                        <span class="topico-titulo">Banco de Dados</span>
-                                        <button class="toggle-button"><img src="icons/seta-baixo.png" alt=""></button>
-                                        <span class="novo-topico"><img src="icons/mais.png" alt="" class="mais-icon"></span>
-                                    </div>
-
-                                    <ul class="lista-subtopicos">
-                                        <li class="item-subtopico">
-                                            <span class="subtopico-titulo">MySql</span>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </main>
-        <footer>
-            <p>&copy; 2025 MyStudyList. Todos os direitos reservados.</p>
-        </footer>
+        <footer></footer>
     </div>
 
     <script src="script.js"></script>

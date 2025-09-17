@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     color: white;
-    font-weight: bolder     ;
+    font-weight: bolder;
+}
+body{
+    background-color: #fff9ec; 
 }
 
 .conteiner {
@@ -13,7 +16,7 @@ header {
     padding: 10px 15px;
     width: 350px;
     height: 100vh;
-    background-color: #90E0EF;
+    background-color: #6a040f;
     box-shadow: 2px 2px 10px gray;
 
 }
@@ -29,10 +32,11 @@ header {
     align-items: center;
     gap: 8px;
 }
-/* main{
+main{
     
-} */
+}
 .content {
+   
     margin-left: 100px;
     display: flex;
     flex-direction: column;
@@ -50,7 +54,7 @@ header {
     justify-content: center;
     border-radius: 50px;
     text-align: center;
-    background-color: #90E0EF;
+    background-color: #6a040f;
     padding: 10px 15px;
     width: 100px;
     box-shadow: 1px 1px 5px rgb(49, 49, 49);
@@ -68,16 +72,17 @@ ul {
     margin-top: 50px;
     gap: 150px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     align-items: flex-start;
 }
 
 .card-estudo {
     box-shadow: 1px 1px 10px rgb(49, 49, 49);
     padding: 15px 25px;
-    background-color: #90E0EF;
+    background-color: #6a040f;
     border-radius: 20px;
-    height: 400px;
+    height: min-content ;
     width: 225px;
     overflow-y: auto; 
 }
